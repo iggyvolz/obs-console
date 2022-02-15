@@ -1,0 +1,23 @@
+{
+  "name": "iggyvolz/obs-console",
+  "description": "description",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "0BSD",
+  "require": {
+    "php": "8.1.*",
+    "iggyvolz/obs": "dev-main",
+    "amphp/websocket-server": "v3.x-dev",
+    "amphp/http-server": "v3.x-dev",
+    "nette/di": "^3.0",
+    "ext-pcntl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "iggyvolz\\obsconsole\\": "src/"
+    }
+  },
+  "require-dev": {
+    "nette/php-generator": "^3.6"
+  }
+}

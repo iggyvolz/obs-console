@@ -1,0 +1,4 @@
+parameters:
+    port: 8080
+services:
+    tcpServer: ::Amp\Socket\listen("0.0.0.0:%port%")
